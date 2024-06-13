@@ -1,0 +1,115 @@
+.header {
+  background-color: #003366;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .right-section {
+  display: flex;
+  align-items: center;
+}
+
+.header .unmsm-section {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.header .unmsm-logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header .unmsm-text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.user-selection-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.user-option {
+  text-align: center;
+  position: relative;
+}
+
+.user-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.user-option-content {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  width: calc(100% - 20px);
+}
+
+.role {
+  margin: 0;
+  text-align: left;
+}
+
+.user-option button {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.user-option button:hover {
+  background-color: #003366;
+}
+
+.terms {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.terms a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
